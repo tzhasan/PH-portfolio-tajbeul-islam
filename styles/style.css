@@ -1,0 +1,283 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+section{
+  margin-top: 130px;
+}
+
+main{
+  max-width: 1140px;
+  margin: 0 auto;
+}
+/* header > navbar styles------------------------------ */
+.header{
+  background-image: url(../images/header_bg.png), url(../images/developer.png);
+  background-repeat: no-repeat;
+  background-position: bottom right, left;
+}
+
+.logo{
+  font-weight: 800;
+  font-size: 45px;
+}
+
+.orange{
+  color: #FD6E0A;
+}
+
+.nav-section{
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+  padding: 50px 230px;
+  margin-top: 0;
+  
+}
+
+.navbar ul{
+  display: flex;
+  gap: 50px; 
+  list-style-type: none;
+  align-items: center;
+}
+
+.navbar ul li{
+  font-weight: 400;
+  font-size: 20px;
+}
+.navbar ul li a{
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 20px;
+  color: white;
+  background-color: #FD6E0A;
+  border-radius: 5px;
+  padding: 18px 35px;
+}
+
+/* benner styles-------------------- */
+
+.banner-container{
+  display: flex;
+  justify-content:space-between;
+  margin-left: 230px;
+  margin-right: 38px;
+
+}
+.id-details h3{
+  font-weight: 600;
+  font-size: 45px;
+  color: #474747;
+}
+.id-details h1{
+  font-weight: 700;
+  font-size: 85px;
+  margin-bottom: 20px;
+}
+
+.id-details p{
+  font-weight: 400;
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+button{
+  padding: 19px 17px;
+  font-weight: 700;
+  font-size: 20px;
+  text-align: center;
+  background-color: #FD6E0A;
+  color: white;
+  border-radius: 5px;
+  border: #FD6E0A;
+}
+
+.download-cv1{
+  margin-right: 30px;
+  border: 1px solid #FD6E0A;
+}
+.contact{
+  background-color: transparent;
+  color: #FD6E0A;
+  border: 1px solid #FD6E0A;
+}
+
+/* About---------------------------- */
+
+.about{
+  padding: 130px 156px;
+  background-color: #FFF8F3;
+  border-radius: 10px;
+}
+.section-title{
+  margin-bottom: 30px;
+  text-align: center;
+  font-weight: 700;
+  font-size: 35px;
+}
+.section-description{
+  margin-bottom: 30px;
+  font-weight: 400;
+  font-size: 18px;
+  color: #757575;
+  text-align: center;
+}
+
+.about-info-container{
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  text-align: center;
+}
+.info-title{
+  color: #757575;
+  font-weight: 400;
+  font-size: 19px;
+
+}
+
+.info-description{
+  font-weight: 700;
+  font-size: 20px;
+  color: #474747;
+}
+
+/* skill section styles----------------------------- */
+
+
+.skill-container{
+  display: flex;
+  gap: 24px;
+  margin-top: 50px;
+}
+.skill-title{
+  font-weight: 700;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.skill img{
+  margin-bottom: 30px;
+}
+
+.skill-description{
+  color: #757575;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.skill{
+  background: #FFFFFF;
+  box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+  border-radius: 5px;
+  padding: 30px;
+}
+
+/* summary-section-------------------------- */
+
+.summary-section{
+  display: flex;
+  gap: 24px;
+}
+
+.summary-head-title{
+  color: black;
+  font-weight: 700;
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+
+.summary-title{
+  font-weight: 700;
+  font-size: 25px;
+  color: #474747;
+  margin-bottom: 10px;
+}
+
+.summary-subtitle{
+  font-weight: 600;
+  font-size: 20px;
+  color: #757575;
+  margin-bottom: 20px;
+}
+.summary-description{
+  font-weight: 400;
+  font-size: 16px;
+  color: #757575;
+  margin-bottom: 30px;
+}
+
+.summary-card hr{
+  margin-bottom: 30px;
+  background-color: 1px solid black;
+}
+.download-cv{
+  display: flex;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+/* footer styles------------------------------------- */
+footer{
+  background-color: #FFF8F3;
+}
+
+.footer-container{
+  display: flex;
+  gap: 117px;
+  justify-content: center;
+  max-width: 1140px;
+  margin: 0 auto;
+  text-align: left;
+  padding: 130px 230px;
+}
+
+.footer-title{
+  color: #181818;
+  font-size: 35px;
+  line-height: 48px;
+  margin-bottom: 25px;
+}
+
+.footer-description{
+  font-weight: 400;
+  font-size: 16px;
+  color: #474747;
+  margin-bottom: 20px;
+}
+
+.icons{
+  margin-top: 30px;
+  color: #FD6E0A;
+}
+
+.icons>*{
+  margin-right: 10px;
+}
+
+.footer-container input[type="text"],input[type="email"] ,textarea{
+  width: 100%;
+  /* height: 64px; */
+  margin-bottom: 24px;
+  border: 0;
+  padding: 18px 30px;
+}
+
+
+.submit{
+  padding: 19px 17px;
+  font-weight: 700;
+  font-size: 20px;
+  text-align: center;
+  background-color: #FD6E0A;
+  color: white;
+  border-radius: 5px;
+  border: #FD6E0A;
+}
+
+textarea{
+  height: 140px;
+}
+
