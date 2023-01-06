@@ -59,6 +59,11 @@ main{
 
 /* benner styles-------------------- */
 
+.my-image img{
+  height: 100%;
+  width: auto;
+}
+
 .banner-container{
   display: flex;
   justify-content:space-between;
